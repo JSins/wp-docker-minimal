@@ -15,7 +15,6 @@ Make sure you have the following things installed and set up:
 Perform the following steps in sequence:
 
 1. Execute task `Start all services` and wait until all files are downloaded.
-2. Change wordpress table prefix in `wp-config.php`
-3. Open `localhost` and install wordpress
+2. Open `localhost` and install wordpress
 
 To use the wp-cli, execute task `wp-cli` and use your commands there.
