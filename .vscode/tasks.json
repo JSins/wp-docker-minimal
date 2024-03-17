@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Start all services (docker-compose up)",
+        "type": "shell",
+        "command": "docker-compose up -d"
+      },
+      {
+        "label": "Remove all services (docker-compose down)",
+        "type": "shell",
+        "command": "docker-compose down"
+      },
+      {
+        "label": "wp-cli",
+        "type": "shell",
+        "command": "docker-compose run --rm wpcli bash"
+      }
+    ]
+  }
+  
